@@ -35,10 +35,6 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('images/cheatBackground.png')";
-
-  var audio = new Audio('audio/pling.mp3');
-  audio.play();
-
-  alert("cheats activated");
+  alert('So I heard you guys were looking for a flag.'); 
+  alert('The flag is minictf{web_too_hard_guys}');
 }
