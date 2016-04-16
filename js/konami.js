@@ -35,6 +35,6 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  alert('So I heard you guys were looking for a flag.'); 
-  alert('The flag is minictf{web_too_hard_guys}');
+  console.log("So I heard you guys were looking for a flag."); 
+  console.log("The flag is minictf{web_too_hard_guys}");
 }
